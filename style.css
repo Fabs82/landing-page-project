@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -27,18 +26,19 @@ nav {
 }
 
 .links-container a {
+    font-family: "Tourney", serif;
     font-size: 1.5rem;
     color: #8d99ae;
     text-decoration: none;
 }
 
 .links-container a:hover {
-    transition: 1.5s;
+    transition: 1s;
     font-size: 1.6rem;
     color: #2b2d42;
 }
 
-.section-one {
+.title-section {
     padding: 3rem 15.5rem;
     width: 100vw;
     height: 33vw;
@@ -53,17 +53,19 @@ nav {
 }
 
 h1 {
+    font-family: "Tourney", serif;
     font-size: 4rem;
     color: #efefef;
     text-align: center;
 
 }
 
-.first-section {
-    margin: 3rem 15.5rem;
+.section-one {
+    margin: 7rem 15.5rem;
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 4.3rem;
+    flex-wrap: wrap;
 
 }
 
@@ -85,18 +87,36 @@ h1 {
 }
 
 .begin {
+    font-family: "Tourney", serif;
     display: block;
     font-size: 1.5rem;
     color: #fca311;
 }
 
 button {
+    font-family: "Tourney", serif;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 600;
+    color: #8d99ae;
 }
 
 .skeleton {
     width: 45%;
+}
+
+.section-two {
+    background-color: #edf2f4;
+    padding: 7rem 15.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.img-placeholder {
+    height: 200px;
+    width: 200px;
+    background-color: #8d99ae;
+    border: 1px solid #14213d;
 }
