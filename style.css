@@ -10,7 +10,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #14213d;
-    padding: 12px 250px;
+    padding: 1rem 15.5rem;
     position: sticky;
     top: 0;
     border-bottom: 2px solid #242423;
@@ -24,7 +24,7 @@ nav {
 
 .links-container {
     display: flex;
-    gap: 48px;
+    gap: 3rem;
 }
 
 .links-container a {
@@ -37,26 +37,55 @@ nav {
     transition: 0.7s;
     color: #fff;
     background-color: #dbd5ca69;
-    padding: 4px 8px;
+    padding: 0.25rem 4rem;
     border-radius: 4px;
 }
 
 .section-one {
-    padding: 48px 250px;
-    min-height: 500px;
-    color: #cfdbd5;
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    background-image: url("./images/Brontosaurus.svg");
+    padding: 3rem 15.5rem;
+    width: 100vw;
+    height: 33vw;
+    color: #14213d;
+    background-image: url("./images/markus-spiske.t-rex-shadow.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
 h1 {
-    font-size: 2rem;
-    margin: 32px 0;
-    ;
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 15.5rem;
+    gap: 1rem;
+}
+
+.intro p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: #14213d;
+    text-align: center;
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.begin {
+    display: block;
+    font-size: 1.5rem;
+    color: #fca311;
 }

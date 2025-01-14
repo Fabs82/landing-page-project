@@ -13,3 +13,10 @@ STRUCTURE
 Project is subject to change if I find some inspirations online. 
 
 Let's begin!
+
+Photos by:
+Markus Spiske - Unsplash
+Emiliano Vittorioso - Unsplash
+Firkin - OPenClipArt
+
+      
