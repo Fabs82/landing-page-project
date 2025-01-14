@@ -11,6 +11,9 @@ nav {
     align-items: center;
     background-color: #cfdbd5;
     padding: 12px 300px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #242423;
 }
 
 .logo {
@@ -33,12 +36,17 @@ nav {
 .links-container a:hover {
     transition: 1s;
     color: #242423;
+    background-color: #0046432f;
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
 .section-one {
     padding: 12px 300px;
     background-color: #004643;
     color: #cfdbd5;
+    display: flex;
+
 }
 
 .main-picture {
