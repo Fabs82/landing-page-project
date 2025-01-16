@@ -1,4 +1,4 @@
-This is my very first page built completely from scratch. I WON'T PEEK!
+My very first page built completely from scratch.
 
 HTML - CSS - FLEXBOX
 
@@ -16,7 +16,9 @@ Let's begin!
 
 Photos by:
 Markus Spiske - Unsplash
-Emiliano Vittorioso - Unsplash
 Firkin - OPenClipArt
+Fredrik at English Wikipedia. Cloud texture from public domain NASA image.Transferred from en.wikipedia to Commons by Vojtech.dostal., Public Domain, https://commons.wikimedia.org/w/index.php?curid=5786440
+Scott Greer - Unsplash
+Di Krugerr - Opera propria, CC BY-SA 4.0
 
       
