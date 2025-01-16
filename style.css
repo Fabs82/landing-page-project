@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto Mono", serif;
 }
 
 
@@ -42,8 +43,7 @@ nav {
 
 .title-section {
     padding: 3rem 15.5rem;
-    width: 100vw;
-    height: 33vw;
+    min-height: 33vw;
     color: #14213d;
     background-image: url("./images/markus-spiske.t-rex-shadow.jpg");
     background-size: cover;
@@ -139,4 +139,30 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+}
+
+.section-three {
+    margin: 15rem 15.5rem;
+}
+
+.quote {
+    text-align: justify;
+    font-size: 2rem;
+}
+
+.quoted-person {
+    display: block;
+    margin-top: 1rem;
+    text-align: end;
+}
+
+footer {
+    min-height: 7vh;
+    line-height: 7vh;
+    background-color: #edf2f4;
+    color: #fca311;
+    font-family: "Tourney", serif;
+    font-size: 2rem;
+    padding: 0 15.5rem;
+    text-align: center;
 }
