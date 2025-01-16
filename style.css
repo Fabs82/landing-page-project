@@ -13,7 +13,7 @@ nav {
     padding: 0.3rem 15.5rem;
     position: sticky;
     top: 0;
-    border-bottom: 2px solid #242423;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2)
 }
 
 .logo {
@@ -67,7 +67,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     gap: 4.3rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 
 }
 
@@ -121,6 +121,7 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .img-placeholder img {
