@@ -139,7 +139,7 @@ button:hover {
 }
 
 .section-three {
-    margin: 15rem 15.5rem;
+    padding: 7rem 15.5rem;
 }
 
 .quote {
@@ -153,9 +153,27 @@ button:hover {
     text-align: end;
 }
 
+.section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem
+}
+
+.section-four p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+iframe {
+    margin-bottom: 2rem;
+}
+
 footer {
-    min-height: 7vh;
-    line-height: 7vh;
+    min-height: 5rem;
+    line-height: 5rem;
     background-color: #edf2f4;
     color: #fca311;
     font-family: "Tourney", serif;
