@@ -39,6 +39,7 @@ nav {
     transition: 1s;
     font-size: 1.6rem;
     color: #fca311;
+    text-decoration: underline;
 }
 
 .title-section {
