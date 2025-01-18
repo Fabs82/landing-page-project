@@ -62,32 +62,26 @@ h1 {
 }
 
 .section-one {
-    margin: 7rem 15.5rem;
+    width: 70%;
+    margin: 7rem auto;
     display: flex;
     justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap-reverse;
-
 }
 
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
     width: 50%;
 }
 
 .intro p {
     font-size: 1.1rem;
     line-height: 1.5;
-    text-align: justify;
     color: #14213d;
-    text-align: justify;
+    margin-top: 1rem;
 }
 
-.begin {
+h2 {
     font-family: "Tourney", serif;
     display: block;
     font-size: 1.5rem;
@@ -95,14 +89,14 @@ h1 {
 }
 
 button {
+    margin-top: 1rem;
     font-family: "Tourney", serif;
-    padding: 1rem 1.7rem;
+    padding: 0.5rem 1.2rem;
     border-radius: 1rem;
     border-color: #14213d;
     font-size: 1.6rem;
     font-weight: 600;
     color: #8d99ae;
-    align-self: flex-end;
 }
 
 button:hover {
@@ -111,15 +105,15 @@ button:hover {
 }
 
 .skeleton {
-    width: 45%;
+    width: 40%;
 }
 
 .section-two {
     background-color: #edf2f4;
-    padding: 7rem 15.5rem;
+    width: 100%;
+    padding: 7rem 0;
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -138,10 +132,12 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    margin: 0;
 }
 
 .section-three {
-    padding: 7rem 15.5rem;
+    width: 70%;
+    margin: 7rem auto;
 }
 
 .quote {
